@@ -1,0 +1,1216 @@
+@font-face {
+    font-family: 'Troubleside';
+    src: url('../fonts/Troubleside.ttf');
+    font-weight: 900;
+} 
+@font-face {
+    font-family: 'Amavickfont';
+    src: url('../fonts/Amavickfont.ttf');
+    font-weight: 600;
+}
+
+html, body {
+    height: 100%;
+  }
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.main_container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 100%;
+    text-align: center;
+    background-size: 100%;
+    position: relative;
+}
+
+
+#block_istoria{
+   background-image: url("../images/histori_pic.jpg");
+}
+
+.h1_history{
+    font-family: 'Troubleside';
+    font-size: 100px;
+    margin: 0;
+    padding-top: 250px;
+    color: #46747C;
+}
+
+.h2_history{
+    font-family: 'Troubleside';
+    font-size: 100px;
+    margin: 0;
+    padding-top: 20px;
+    color: #46747C;
+}
+
+.container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 520px;
+    text-align: center;
+    background-size: 100%;
+    position: relative;
+}
+
+.pictures{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    bottom: -20px;
+}
+
+#container_image_message{
+  left: 25px;
+}
+
+.description{
+    position: absolute;
+    width: 55%;
+    height: 60%;
+    bottom: 70px;
+    right: 25px;
+}
+
+.timer_table{
+    width: 100%;
+    border-spacing: 20px 0;
+
+}
+
+td{
+    width: 300px;
+    height: 80px;
+  }
+
+.num td{
+    font-size: 70px;
+    background-color: #F0D8D5;
+    color: #323347;
+    border: 10px;
+    border-style: solid #F0D8D5;
+    border-radius: 10px;
+}
+
+.info{
+    font-size: 30px;
+}
+
+.text_description{
+    font-family: 'Amavickfont';
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.small_text{
+  font-family: 'Amavickfont';
+  font-size: 30px;
+}
+
+#block_dating{
+    height: 920px;
+}
+#container_image_dating{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    bottom: 5px;
+    right: 5px;
+}
+
+#depscription_dating {
+    position: absolute;
+    width: 55%;
+    height: 60%;
+    bottom: 10px;
+    left: 25px;
+}
+
+#fon_3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    right: 0;
+    opacity: 50%;
+}
+
+#fon_4{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    bottom: -100px; 
+    left: 0;
+    opacity: 30%;
+}
+
+#fon_8{
+  position: relative;
+padding-left: 1128px;
+padding-top: 700px;
+}
+
+#container_image_kiss{
+    position: absolute;
+    left: 44px;
+    width: 20%;
+    bottom: 150px;
+}
+
+#fon_9{
+  position: relative;
+  padding-left: 1020px;
+  padding-top: 600px;
+}
+
+  /* Cats */
+  .cats_general{
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 300px;
+    min-height: 100%;
+    /* background-color: chartreuse; */
+    text-align: center;
+    background-size: 100%;
+    background-image: url("../images/fon_6.jpg");
+  }
+
+  .cat_container{
+    width: 30%;
+    height: 400px;
+    display: inline-block;  
+    margin: 0 auto;
+}
+
+  .soya_box{
+      position: relative;
+      padding-top: 20px;
+      left: 20px;
+  }
+
+  #text_cats_1{
+  position: relative;
+  top: 10px;
+  margin-bottom: 10px;
+}
+
+  /* Cat slider */
+  .slider_cats{
+    width: 400px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    /* background-color: darkkhaki; */
+  }
+  /* Картинка мастабируется по отношению к родительскому элементу */
+  .slider_cats .item_cats_1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 12px;
+  }
+  /* Кнопки вперед и назад */
+  .slider_cats .prev_cats_1, .slider_cats .next_cats_1 {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .slider_cats .prev_cats_1{
+    left: 0;
+  }
+
+  .slider_cats .next_cats_1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* При наведении на кнопки добавляем фон кнопок */
+  .slider_cats .prev_cats_1:hover,
+  .slider_cats .next_cats_1:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Анимация слайдов */
+  .slider_cats .item_cats_1 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+        opacity: .8
+    }
+    to {
+        opacity: 1
+    }
+  }
+  @keyframes fade {
+    from {
+        opacity: .8
+    }
+    to {
+        opacity: 1
+    }
+  }
+/* End cat Slider */
+
+.timer_cats_container{
+    width: 100%;
+    align-content: center;
+}
+
+.timer_table_cats_1{
+    width: 100%;
+    border-spacing: 20px 0;
+}
+
+.num_cats_1{
+    background-color: #F0D8D5;
+    color: #323347;
+    border: 10px;
+    border-style: solid #F0D8D5;
+    text-align: center;
+}
+
+.info_cats{
+    font-size: 20px;
+    text-align: center;
+} 
+
+td{
+    width: 300px;
+    height: 80px;
+  }
+
+.num_cats_1 td{
+    font-size: 30px;
+    background-color: #F0D8D5;
+    color: #323347;
+    border: 10px;
+    border-style: solid #F0D8D5;
+    border-radius: 10px;
+}
+
+.text_box{
+    text-align: center;
+}
+
+.iva_box{
+    position: relative;
+    padding-top: 80px;
+    right: 20px;
+}
+
+/* Slider Cats 2 */
+
+.slider_cats .item_cats_2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 12px;
+  }
+  /* Кнопки вперед и назад */
+  .slider_cats .prev_cats_2, .slider_cats .next_cats_2 {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .slider_cats .prev_cats_2{
+    left: 0;
+  }
+  .slider_cats .next_cats_2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* При наведении на кнопки добавляем фон кнопок */
+  .slider_cats .prev_cats_2:hover,
+  .slider_cats .next_cats_2:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Анимация слайдов */
+  .slider_cats .item_cats_2 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+        opacity: .8
+    }
+    to {
+        opacity: 1
+    }
+  }
+  @keyframes fade {
+    from {
+        opacity: .8
+    }
+    to {
+        opacity: 1
+    }
+  }
+/* End cat Slider */
+
+.buttons{
+    width: auto;
+}
+
+/* End cats */
+
+
+/* Start Spain */
+.spain_container{
+  width: 100%;
+  max-width: 1920px;
+  height: 800px;
+}
+
+.general{
+  width: 100%;
+  height: 800px;
+}
+.spain_description{
+  width: 49.5%;
+  display: inline-block;
+  height: 800px;
+  margin: 0 auto;
+  }
+
+  .spain_text_container{
+    width: 49.5%;
+    display: inline-block;
+    height: 800px;
+    margin: 0 auto;
+    position: absolute;
+    padding-top: 262px;
+    text-align: center;
+  }
+
+  #fon_10{
+    position: relative;
+    padding-left: 1105px;
+    padding-top: 200px;
+  }  
+ 
+   /* Slider Spain */
+
+  .slider_spain_container{
+    width: 49%;
+    position: absolute;
+    align-content: center;
+    padding-top: 90px;
+  }
+
+  #text_spain{
+    padding-right: 38px;
+  }
+
+  #fon_11{
+    position: relative;
+    padding-top: 200px;
+    padding-left: 255px;
+  }  
+  
+  .slider_spain{
+    width: 512px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 117px;
+  }
+  /* Картинка мастабируется по отношению к родительскому элементу */
+  .slider_spain .item_spain img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 12px;
+  }
+  /* Кнопки вперед и назад */
+  .slider_spain .prev_spain, .slider_spain .next_spain {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .slider_spain .prev_spain{
+    left: 0;
+  }
+  
+  .slider_spain .next_spain {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* При наведении на кнопки добавляем фон кнопок */
+  .slider_spain .prev_spain:hover,
+  .slider_spain .next_spain:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Анимация слайдов */
+  .slider_spain .item_spain {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+        opacity: .8
+    }
+    to {
+        opacity: 1
+    }
+  }
+  @keyframes fade {
+    from {
+        opacity: .8
+    }
+    to {
+        opacity: 1
+    }
+  }
+  /* End Spain Slider */
+  
+  /* Timer Spain */
+  .timer_spain{
+    width: 60%;
+    margin-top: 20px;
+    padding-left: 144px;
+  }
+  
+  .timer_table_spain{
+    width: 100%;
+    border-spacing: 20px 0;
+  }
+  
+  .num_spain{
+    background-color: #F0D8D5;
+    color: #323347;
+    border: 10px;
+    border-style: solid #F0D8D5;
+    text-align: center;
+  }
+  
+  .info_num_spain{
+    font-size: 20px;
+    text-align: center;
+  } 
+  
+  .num_spain td{
+    font-size: 30px;
+    background-color: #F0D8D5;
+    color: #323347;
+    border: 10px;
+    border-style: solid #F0D8D5;
+    border-radius: 10px;
+  }
+  /* End Spain */
+
+#fon12{
+  padding-right: 578px;
+  padding-top: 250px;
+}
+
+
+/* Wedding */
+
+.wedding{
+    width: 100%;
+    height: 800px;
+    min-width: 100%;
+    margin: 0 auto;
+    /* padding: 0; */
+}
+
+.wedding_text_container{
+    width: 50%;
+    position: absolute;
+    padding-left: 20px;
+}
+
+.wedding_text{
+    width: 49.7%;
+    height: 800px;
+    display: inline-block;
+}
+
+.wedding_pick{
+  position: absolute;
+  padding-top: 390px;
+  padding-left: 27px;
+}
+
+.wedding_description{
+    width: 49.7%;
+    height: 800px;
+    display: inline-block;
+}
+
+#wedding_p{
+    padding-top: 40px;
+    padding-left: 16px;
+    text-align: center;
+}
+
+#weddding_date_text{
+  padding-left: 250px;
+}
+
+.slider_wedding_container{
+  padding-left: 100px;
+}
+
+.wedding_container{
+  width: 49%;
+  position: absolute;
+  align-content: center;
+  padding-top: 30px;
+}
+
+
+/* Slider Wedding */
+
+.slider_wedding{
+  width: 550px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 38px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider_wedding .item_wedding img {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 12px;
+}
+/* Кнопки вперед и назад */
+.slider_wedding .prev_wedding, .slider_wedding .next_wedding {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.slider_wedding .prev_wedding{
+  left: 0;
+}
+
+.slider_wedding .next_wedding {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider_wedding .prev_wedding:hover,
+.slider_wedding .next_wedding:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Анимация слайдов */
+.slider_wedding .item_wedding {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+/* End wedding Slider */
+
+/* Timer Wedding */
+.timer_wedding{
+  width: 60%;
+  margin-top: 20px;
+  padding-left: 20%;
+}
+
+.timer_table_wedding{
+  width: 100%;
+  border-spacing: 20px 0;
+}
+
+.num_wedding{
+  background-color: #F0D8D5;
+  color: #323347;
+  border: 10px;
+  border-style: solid #F0D8D5;
+  text-align: center;
+}
+
+.info_num_wedding{
+  font-size: 20px;
+  text-align: center;
+} 
+
+.num_wedding td{
+  font-size: 30px;
+  background-color: #F0D8D5;
+  color: #323347;
+  border: 10px;
+  border-style: solid #F0D8D5;
+  border-radius: 10px;
+}
+/* End Wedding */
+
+/* Start Travel */
+
+.travel_container{
+width: 100%;
+max-width: 1920px;
+height: 600px;
+text-align: center;
+}
+
+.travel_text{
+  font-family: 'Amavickfont';
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.travel_description{
+  font-family: 'Amavickfont';
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.travel_box{
+  width: 32.5%;
+  height: 600px;
+  display: inline-block;
+}
+
+/* Start Travel Europe */
+
+.slider_travel_eu{
+  width: 350px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  /* background-color: darkkhaki; */
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider_travel_eu .item_travel_eu img {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 12px;
+}
+/* Кнопки вперед и назад */
+.slider_travel_eu .prev_travel_eu, .slider_travel_eu .next_travel_eu {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.slider_travel_eu .prev_travel_eu{
+  left: 0;
+}
+
+.slider_travel_eu .next_travel_eu {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider_travel_eu .prev_travel_eu:hover,
+.slider_travel_eu .next_travel_eu:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Анимация слайдов */
+.slider_travel_eu .item_travel_eu {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+/* End Travel Europe Slider */
+
+/* Start Travel Ru */
+
+.slider_travel_ru{
+  width: 350px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  /* background-color: darkkhaki; */
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider_travel_ru .item_travel_ru img {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 12px;
+}
+/* Кнопки вперед и назад */
+.slider_travel_ru .prev_travel_ru, .slider_travel_ru .next_travel_ru {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.slider_travel_ru .prev_travel_ru{
+  left: 0;
+}
+
+.slider_travel_ru .next_travel_ru {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider_travel_ru .prev_travel_ru:hover,
+.slider_travel_ru .next_travel_ru:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Анимация слайдов */
+.slider_travel_ru .item_travel_ru {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+/* End Travel Ru Slider */
+
+/* Start Travel Uk */
+
+.slider_travel_uk{
+  width: 350px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  /* background-color: darkkhaki; */
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider_travel_uk .item_travel_uk img {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 12px;
+}
+/* Кнопки вперед и назад */
+.slider_travel_uk .prev_travel_uk, .slider_travel_uk .next_travel_uk {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.slider_travel_uk .prev_travel_uk{
+  left: 0;
+}
+
+.slider_travel_uk .next_travel_uk {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider_travel_uk .prev_travel_uk:hover,
+.slider_travel_uk .next_travel_uk:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Анимация слайдов */
+.slider_travel_uk .item_travel_ru {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+/* End Travel Eu Slider */
+
+/* Start New Year */
+
+.ny{
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  text-align: center;
+  background-size: 100%;
+  /* background-image: url("../images/fon_7.jpg"); */
+}
+
+#ny_p{
+  padding-left: 36px;
+  padding-top: 90px;
+}
+
+#ny_pick{
+  padding-top: 520px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Start New Year Slider */
+
+.slider_ny{
+  width: 550px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider_ny .item_ny img {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 12px;
+}
+/* Кнопки вперед и назад */
+.slider_ny .prev_ny, .slider_ny .next_ny {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.slider_ny .prev_ny{
+  left: 0;
+}
+
+.slider_ny .next_ny {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider_ny .prev_ny:hover,
+.slider_ny .next_ny:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Анимация слайдов */
+.slider_ny .item_ny {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+/* End wedding Slider */
+
+/* Timer New Year */
+.timer_ny{
+  width: 60%;
+  margin-top: 20px;
+  padding-left: 205px;
+}
+
+.timer_table_ny{
+  width: 100%;
+  border-spacing: 20px 0;
+}
+
+.num_ny{
+  background-color: #F0D8D5;
+  color: #323347;
+  border: 10px;
+  border-style: solid #F0D8D5;
+  text-align: center;
+}
+
+.info_num_ny{
+  font-size: 20px;
+  text-align: center;
+} 
+
+.num_ny td{
+  font-size: 30px;
+  background-color: #F0D8D5;
+  color: #323347;
+  border: 10px;
+  border-style: solid #F0D8D5;
+  border-radius: 10px;
+}
+/* End New Year */
+
+.slider_container{
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-top: 150px;
+  height: 600px;
+  min-height: 100%;
+}
+
+.slider_box{
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  min-height: 100%;
+  background-size: 100%;
+  position: absolute;
+  background-image: url("../images/first_slider_fon.jpg");
+}
+
+/* Last Slider */
+
+.slider{
+  width: 550px;
+  position: relative;
+  margin: auto;
+  margin-top: 25px;
+}
+
+#slider_end{
+padding-top: 10px;
+}
+
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 20px;
+}
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slider .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Кружочки
+.slider-dots {
+  text-align: center;
+}
+.slider-dots_item{
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+  background-color: #aaa;
+} */
+/* Анимация слайдов */
+.slider .item {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+      opacity: .8
+  }
+  to {
+      opacity: 1
+  }
+}
+/* End Slider */
+
+.slider_text{
+    text-align: center;
+    font-family: 'Amavickfont';
+    font-size: 50px;
+    margin-bottom: 5px;
+}

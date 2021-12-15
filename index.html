@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Lesson-9</title>
+    <!-- Fonts -->
+   
+
+    <link rel="stylesheet" href="css/style.css">
+<body>
+
+
+<main class="main">
+        <!-- History -->
+    <div class="main_container" id="block_istoria">
+        <h1 class="h1_history">Наша</h1>
+        <h2 class="h2_history">История</h2>
+
+    </div>
+    <!-- Message -->
+    <div class="container" id="block_message">
+        <div class="pictures" id="container_image_message">
+            <img src="./images/message.svg" alt="message">
+        </div>
+        <div class="description" id="depscription_message">
+            <div class="timer">
+                <table id="table_message" class="timer_table">
+                    <tr class="num">
+                        <td id="days_num">0</td>
+                        <td id="hours_num">0</td>
+                        <td id="minuts_num">0</td>
+                        <td id="seconds_num">0</td>
+                    </tr>
+                    <tr class="info">
+                        <td>Дней</td>
+                        <td>Часов</td>
+                        <td>Минут</td>
+                        <td>Секунд</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="container_text_description">
+                <p class="text_description">прошло с тех пор, как было <br>отправлено главное <br>сообщение в нашей жизни</p>
+                <p class="small_text">(03 июля 2016г.)</p>
+            </div>
+        </div>
+        <img id="fon_8" src="./images/fon_8.png" alt="fon">
+    </div>
+
+
+    <!-- Start Dating -->
+    <div class="container" id="block_dating">
+        
+        <div class="description" id="depscription_dating">
+            <div class="timer">
+                <table id="table_dating" class="timer_table">
+                    <tr class="num">
+                        <td id="days_num_dating">0</td>
+                        <td id="hours_num_dating">0</td>
+                        <td id="minuts_num_dating">0</td>
+                        <td id="seconds_num_dating">0</td>
+                    </tr>
+                    <tr class="info">
+                        <td>Дней</td>
+                        <td>Часов</td>
+                        <td>Минут</td>
+                        <td>Секунд</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="container_text_description" id="container_text_dating">
+                <p class="text_description">прошло с тех пор, как мы впервые увидели друг друга</p>
+                <p class="small_text">(06 июля 2016г.)</p>
+            </div>
+        </div>
+        <div class="pictures" id="container_image_dating">
+            <img src="./images/dating.svg" alt="dating">
+        </div>
+        <div class="fon_pic" id="fon_4">
+            <img src="./images/fon_4.png" alt="fon_4">
+        </div>
+    </div>
+    <!-- Kiss -->
+    <div class="container" id="block_kiss">
+        <div class="pictures" id="container_image_kiss">
+            <img src="./images/kiss_new.svg" alt="kiss">
+        </div>
+        <div class="description" id="depscription_kiss">
+            <div class="timer">
+                <table id="table_kiss" class="timer_table">
+                    <tr class="num">
+                        <td id="days_num_kiss">0</td>
+                        <td id="hours_num_kiss">0</td>
+                        <td id="minuts_num_kiss">0</td>
+                        <td id="seconds_num_kiss">0</td>
+                    </tr>
+                    <tr class="info">
+                        <td id="days_num">Дней</td>
+                        <td id="hours_num">Часов</td>
+                        <td id="mituts_num">Минут</td>
+                        <td id="seconds_num">Секунд</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="container_text_description">
+                <p class="text_description">столько времени назад мы в первый раз поцеловались</p>
+                <p class="small_text">(08 июля 2016г.)</p>
+            </div>
+        </div>
+        <img id="fon_9" src="./images/fon_9.png" alt="fon_9">
+    </div>
+
+    <!-- Cats -->
+   <div class="cats_general">
+        <div class="cat_container" id="soya_container">
+            <div class="soya_box">
+
+                <!-- Slider cats-->
+                <div class="slider_cat_container">
+                    <div class="slider_cats">
+                        <div class="item_cats_1">
+                            <img src="./images/soya_3.jpg" alt="Первый слайд">
+                        </div>
+                        <div class="item_cats_1">
+                            <img src="./images/soya_1.jpg" alt="Второй слайд">
+                        </div>
+                        <div class="item_cats_1">
+                            <img src="./images/soya_2.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_cats_1">
+                            <img src="./images/soya_4.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_cats_1">
+                            <img src="./images/soya_5.jpg" alt="Третий слайд">
+                        </div>
+                    <!-- Buttons -->
+                        <a class="prev_cats_1" onclick="minusSlide_cat_1()">&#10094;</a>
+                        <a class="next_cats_1" onclick="plusSlide_cat_1()">&#10095;</a>
+                </div>
+            </div>
+            <!-- Timer cats-->
+            <div class="timer_cats_description">
+                <div class="timer_cats_container">
+                    <table id="table_cats" class="timer_table_cats_1">
+                        <tr class="num_cats_1">
+                            <td id="days_num_cats_1">1485</td>
+                            <td id="hours_num_cats_1">18</td>
+                            <td id="minuts_num_cats_1">52</td>
+                            <td id="seconds_num_cats_1">47</td>
+                        </tr>
+                        <tr class="info_cats">
+                            <td>Дней</td>
+                            <td>Часов</td>
+                            <td>Минут</td>
+                            <td>Секунд</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Text cats-->
+        <div class="cat_container">
+            <div class="text_box">
+                <p class="text_description" id="text_cats_1">в нашей семье появились котята</p>
+                <p class="small_text">Соя - 15 апреля 2017г.</p>
+                <p class="small_text">Ива - 17 июня 2019г.</p>
+            </div>
+        </div>
+    
+        <!-- Iva -->
+        <div class="cat_container" id="iva_container">
+            <div class="iva_box">
+
+                <!-- Slider iva-->
+                <div class="slider_cat_container">
+                    <div class="slider_cats">
+                        <div class="item_cats_2">
+                            <img src="./images/iva_3.jpg" alt="Первый слайд">
+                        </div>
+                        <div class="item_cats_2">
+                            <img src="./images/iva_2.jpg" alt="Второй слайд">
+                        </div>
+                        <div class="item_cats_2">
+                            <img src="./images/iva_1.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_cats_2">
+                            <img src="./images/iva_5.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_cats_2">
+                            <img src="./images/iva_6.jpg" alt="Третий слайд">
+                        </div>
+
+                    <!-- Buttons -->
+                    <div class="buttons">
+                        <a class="prev_cats_2" onclick="minusSlide_cat_2()">&#10094;</a>
+                        <a class="next_cats_2" onclick="plusSlide_cat_2()">&#10095;</a>
+                    </div>
+                </div>
+                <!-- Timer iva-->
+            <div class="timer_cats_description">
+                <div class="timer_cats_container">
+                    <table id="table_cats" class="timer_table_cats_1">
+                        <tr class="num_cats_1">
+                            <td id="days_num_cats_2">1485</td>
+                            <td id="hours_num_cats_2">18</td>
+                            <td id="minuts_num_cats_2">52</td>
+                            <td id="seconds_num_cats_2">47</td>
+                        </tr>
+                        <tr class="info_cats">
+                            <td>Дней</td>
+                            <td>Часов</td>
+                            <td>Минут</td>
+                            <td>Секунд</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+        <img id="fon_10" src="./images/fon_10.png" alt="fon10">
+   </div>
+    <!-- End Cats -->
+
+    <!-- Spain -->
+    <div class="spain_container" id="spain_container">
+        <div class="spain general">
+            <div class="spain_description">
+                <div class="spain_slider">
+                    <div class="slider_spain_container">
+                        <div class="slider_spain">
+                            <div class="item_spain">
+                                <img src="./images/spain_1.jpg" alt="Первый слайд">
+                            </div>
+                            <div class="item_spain">
+                                <img src="./images/spain_2.jpg" alt="Второй слайд">
+                            </div>
+                            <div class="item_spain">
+                                <img src="./images/spain_3.jpg" alt="Третий слайд">
+                            </div>
+                            <div class="item_spain">
+                                <img src="./images/spain_4.jpg" alt="Третий слайд">
+                            </div>
+                            <div class="item_spain">
+                                <img src="./images/spain_5.jpg" alt="Третий слайд">
+                            </div>
+                            <div class="item_spain">
+                                <img src="./images/spain_6.jpg" alt="Третий слайд">
+                            </div>
+                            <div class="item_spain">
+                                <img src="./images/spain_7.jpg" alt="Третий слайд">
+                            </div>
+                            <div class="item_spain">
+                                <img src="./images/spain_8.jpg" alt="Третий слайд">
+                            </div>
+                            <div class="item_spain">
+                                <img src="./images/spain_9.jpg" alt="Третий слайд">
+                            </div>
+                            <div class="item_spain">
+                                <img src="./images/spain_10.jpg" alt="Третий слайд">
+                            </div>
+                                <!-- Buttons -->
+                            <div class="buttons">
+                                <a class="prev_spain" onclick="minusSlide_spain()">&#10094;</a>
+                                <a class="next_spain" onclick="plusSlide_spain()">&#10095;</a>
+                            </div>
+                        </div>
+                <!-- Timer Spain-->
+                    <div class="timer_spain">
+                        <div class="timer_spain_container">
+                            <table id="table_spain" class="timer_table_spain">
+                                <tr class="num_spain">
+                                    <td id="days_num_spain">1485</td>
+                                    <td id="hours_num_spain">18</td>
+                                    <td id="minuts_num_spain">52</td>
+                                    <td id="seconds_num_spain">47</td>
+                                </tr>
+                                    <tr class="info_num_spain">
+                                    <td>Дней</td>
+                                    <td>Часов</td>
+                                    <td>Минут</td>
+                                    <td>Секунд</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div class="spain_text_container">
+                <p class="text_description" id="text_spain">мы полетели на море <br>и я сделал тебе предложение</p>
+                <p class="small_text">(27 августа 2017г.)</p>
+        </div>
+            <img id="fon_11" src="./images/fon_11.png" alt="fon11">
+        </div>
+    </div>
+    
+    <!-- Wedding -->
+    <div class="wedding">
+        <div class="wedding_text">
+            <div class="wedding_text_container">
+                <p class="text_description" id="wedding_p">мы поженились и устроили самую <br>лучшую свадьбу</p>
+                <p class="small_text" id="weddding_date_text">(21 апреля 2018г.)</p>
+            </div>
+            <div class="wedding_pick">
+                <img src="./images/wedding_fon.jpg" alt="wedding">
+            </div>
+        </div>
+                
+        <div class="wedding_description">
+            <div class="wedding_container">
+            <!-- Slider wedding -->
+                <div class="slider_wedding_container">
+                    <div class="slider_wedding">
+                        <div class="item_wedding">
+                            <img src="./images/wed_01.jpg" alt="Первый слайд">
+                        </div>
+                        <div class="item_wedding">
+                            <img src="./images/wed_02.jpg" alt="Второй слайд">
+                        </div>
+                        <div class="item_wedding">
+                            <img src="./images/wed_1.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_wedding">
+                            <img src="./images/wed_2.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_wedding">
+                            <img src="./images/wed_3.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_wedding">
+                            <img src="./images/wed_4.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_wedding">
+                            <img src="./images/wed_5.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_wedding">
+                            <img src="./images/wed_6.jpg" alt="Третий слайд">
+                        </div>
+                            <!-- Buttons -->
+                        <div class="buttons">
+                            <a class="prev_wedding" onclick="minusSlide_wed()">&#10094;</a>
+                            <a class="next_wedding" onclick="plusSlide_wed()">&#10095;</a>
+                        </div>
+                    </div>
+            <!-- Timer wedding-->
+                <div class="timer_wedding">
+                    <div class="timer_wedding_container">
+                        <table id="table_wedding" class="timer_table_wedding">
+                            <tr class="num_wedding">
+                                <td id="days_num_wed">1485</td>
+                                <td id="hours_num_wed">18</td>
+                                <td id="minuts_num_wed">52</td>
+                                <td id="seconds_num_wed">47</td>
+                            </tr>
+                                <tr class="info_num_wedding">
+                                <td>Дней</td>
+                                <td>Часов</td>
+                                <td>Минут</td>
+                                <td>Секунд</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>
+    </div>
+            <!-- End Wedding -->
+
+            <!-- Start travel -->
+
+    <div class="travel_container">
+        <p class="travel_text">Мы побывали</p>
+        <div class="travel_box" id="travel_box_1">
+            <div class="slider_travel_eu_container">
+                <div class="slider_travel_eu">
+                    <div class="item_travel_eu">
+                        <img src="./images/eur_01.jpg" alt="Первый слайд">
+                    </div>
+                    <div class="item_travel_eu">
+                        <img src="./images/eur_1.jpg" alt="Первый слайд">
+                    </div>
+                    <div class="item_travel_eu">
+                        <img src="./images/eur_2.jpg" alt="Второй слайд">
+                    </div>
+                    <div class="item_travel_eu">
+                        <img src="./images/eur_3.jpg" alt="Третий слайд">
+                    </div>
+                        <!-- Buttons -->
+                    <div class="buttons">
+                        <a class="prev_travel_eu" onclick="minusSlide_travel_eu()">&#10094;</a>
+                        <a class="next_travel_eu" onclick="plusSlide_travel_eu()">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <p class="travel_description">в европе</p>
+        </div>
+        <div class="travel_box">
+            <div class="slider_travel_ru_container">
+                <div class="slider_travel_ru">
+                    <div class="item_travel_ru">
+                        <img src="./images/rus_1.jpg" alt="Первый слайд">
+                    </div>
+                    <div class="item_travel_ru">
+                        <img src="./images/rus_2.jpg" alt="Второй слайд">
+                    </div>
+                    <div class="item_travel_ru">
+                        <img src="./images/rus_3.jpg" alt="Третий слайд">
+                    </div>
+                    <div class="item_travel_ru">
+                        <img src="./images/rus_4.jpg" alt="Третий слайд">
+                    </div>
+                    <div class="item_travel_ru">
+                        <img src="./images/rus_5.jpg" alt="Третий слайд">
+                    </div>
+                        <!-- Buttons -->
+                    <div class="buttons">
+                        <a class="prev_travel_ru" onclick="minusSlide_travel_ru()">&#10094;</a>
+                        <a class="next_travel_ru" onclick="plusSlide_travel_ru()">&#10095;</a>
+                    </div>
+                </div>
+                <p class="travel_description">в россии</p>
+            </div>
+        </div>
+        <div class="travel_box" id="travel_box_3">
+            <div class="slider_travel_uk_container">
+                <div class="slider_travel_uk">
+                    <div class="item_travel_uk">
+                        <img src="./images/uk_1.jpg" alt="Первый слайд">
+                    </div>
+                    <div class="item_travel_uk">
+                        <img src="./images/uk_2.jpg" alt="Второй слайд">
+                    </div>
+                    <div class="item_travel_uk">
+                        <img src="./images/uk_3.jpg" alt="Третий слайд">
+                    </div>
+                    <div class="item_travel_uk">
+                        <img src="./images/uk_4.jpg" alt="Третий слайд">
+                    </div>
+                    <div class="item_travel_uk">
+                        <img src="./images/uk_5.jpg" alt="Третий слайд">
+                    </div>
+                        <!-- Buttons -->
+                    <div class="buttons">
+                        <a class="prev_travel_uk" onclick="minusSlide_travel_uk()">&#10094;</a>
+                        <a class="next_travel_uk" onclick="plusSlide_travel_uk()">&#10095;</a>
+                    </div>
+                </div>
+                <p class="travel_description">и украине</p>
+            </div>
+        </div>
+        <img id="fon12" src="./images/fon_12.png" alt="fon12">
+
+    </div>
+    <!-- End Travel -->
+
+    <!-- Start New Year -->
+    <div class="ny">
+        <div class="wedding_text">
+            <div class="wedding_text_container">
+                <p class="text_description" id="ny_p">и встретили новый год на корабле посреди моря</p>
+                <p class="small_text" id=ny_date_text">(01 января 2019.)</p>
+            </div>
+        </div>
+                
+        <div class="wedding_description">
+            <div class="wedding_container">
+            <!-- Slider New Year -->
+                <div class="slider_ny_container">
+                    <div class="slider_ny">
+                        <div class="item_ny">
+                            <img src="./images/ny_1.jpg" alt="Первый слайд">
+                        </div>
+                        <div class="item_ny">
+                            <img src="./images/ny_2.jpg" alt="Второй слайд">
+                        </div>
+                        <div class="item_ny">
+                            <img src="./images/ny_3.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_ny">
+                            <img src="./images/ny_4.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_ny">
+                            <img src="./images/ny_002.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_ny">
+                            <img src="./images/ny_003.jpg" alt="Третий слайд">
+                        </div>
+                        <div class="item_ny">
+                            <img src="./images/ny_7.jpg" alt="Третий слайд">
+                        </div>
+                            <!-- Buttons -->
+                        <div class="buttons">
+                            <a class="prev_ny" onclick="minusSlide_wedding()">&#10094;</a>
+                            <a class="next_ny" onclick="plusSlide_wedding()">&#10095;</a>
+                        </div>
+                    </div>
+            <!-- Timer New Year-->
+                <div class="timer_ny">
+                    <div class="timer_ny_container">
+                        <table id="table_ny" class="timer_table_ny">
+                            <tr class="num_ny">
+                                <td id="days_num_ny">1485</td>
+                                <td id="hours_num_ny">18</td>
+                                <td id="minuts_num_ny">52</td>
+                                <td id="seconds_num_ny">47</td>
+                            </tr>
+                                <tr class="info_num_ny">
+                                <td>Дней</td>
+                                <td>Часов</td>
+                                <td>Минут</td>
+                                <td>Секунд</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>
+    </div>
+            <!-- End Wedding -->    
+
+    <!-- Start Last Slider-->
+    <div class="slider_container">
+        <div class="slider_box">
+            <div class="slider" id="slider_end">
+                <div class="item">
+                    <img src="./images/other_01.jpg" alt="Первый слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_02.jpg" alt="Второй слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_2.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_3.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_4.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_5.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_6.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_7.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_8.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_9.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_10.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_11.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_12.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_13.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_14.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_15.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_16.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_17.jpg" alt="Третий слайд">
+                </div>
+                <div class="item">
+                    <img src="./images/other_18.jpg" alt="Третий слайд">
+                </div>
+            <!-- Buttons -->
+                <a class="prev" onclick="minusSlide()">&#10094;</a>
+                <a class="next" onclick="plusSlide()">&#10095;</a>
+            </div>
+            <!-- Кружочки под слайдером
+            <div class="slider-dots">
+                <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                <span class="slider-dots_item" onclick="currentSlide(3)"></span>  -->
+
+                <div><p class="slider_text" id="text_last_slider">но самые интересные и лучшие события <br>нас ждут еще впереди!</p></div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</main>
+    <script src="./js/app.js" type="text/javascript"></script>
+</body>
+</html>
